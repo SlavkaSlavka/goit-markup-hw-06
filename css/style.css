@@ -881,7 +881,7 @@ border-radius: 50%;
 {
   fill: var(--akcent-color);
 }
-ch label {
+.comment-help label {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
@@ -889,8 +889,17 @@ ch label {
   line-height: 14px;
   letter-spacing: 0.86;
   color: #757575;
-margin: 0;
-  padding: 0;
+  margin-bottom: 20px;
+}
+.subscribe {
+  margin-top: 14px;
+  margin-bo
+}
+.subscribe-label {
+  margin-bottom: 0;
+}
+.sub {
+  margin-bottom: 7px;
 }
 
 /*основной текст color: #212121; */
