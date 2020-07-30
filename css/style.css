@@ -680,6 +680,7 @@ form .text-title {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  width: 200px;
 }
 .footer-form-button::after {
   content: '';
@@ -697,6 +698,7 @@ form .text-title {
 }
 .footer-form-input {
   box-sizing: border-box;
+  width: 360px;
   line-height: 50px;
   padding: 0;
   margin: 0;
@@ -893,15 +895,22 @@ border-radius: 50%;
 }
 .subscribe {
   margin-top: 14px;
-  margin-bo
+  
 }
+
 .subscribe-label {
   margin-bottom: 0;
 }
 .sub {
   margin-bottom: 7px;
 }
-
+.main-form-wrapper textarea {
+  padding-left: 16px;
+  padding-top: 12px;
+}
+.main-form-wrapper .subscribe-label {
+  margin-left: 19px;
+}
 /*основной текст color: #212121; */
 /* цвет текста color: #757575; */
 /* цвет лого color: #000000;*/
